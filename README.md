@@ -12,3 +12,6 @@ Host someinternalhost
         ForwardAgent yes
         RequestTTY force
         RemoteCommand ssh appuser@10.132.0.3
+
+bastion_IP = 35.240.42.130
+someinternalhost_IP = 10.132.0.3
